@@ -2,3 +2,11 @@
 #_internal:
 #    resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
 #    prefix:   /_internal
+
+domolife_enocean_frontend_homepage:
+    pattern:  /home
+    defaults: { _controller: DomolifeEnoceanBundle:Frontend:index }
+
+domolife_enocean_flyport_getdata:
+    pattern:  /{data}
+    defaults: { _controller: DomolifeEnoceanBundle:Flyport:getdata }
