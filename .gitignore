@@ -10,3 +10,4 @@ composer.phar
 .idea/
 cache/
 log/
+/nbproject/private/
